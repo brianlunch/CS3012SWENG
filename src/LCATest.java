@@ -101,4 +101,23 @@ public class LCATest {
         assertEquals(1, tree.findLCA(6, 2));
     }
 
+
+    @Test
+    public void testTwoNode() {
+        LCA.BT_NoParentPtr_Solution1 tree = new LCA.BT_NoParentPtr_Solution1();
+        tree.root = new LCA.Node(1);
+        tree.root.left = new LCA.Node(2);
+
+         /*
+
+        SEARCH TREE VISUALISATION
+
+        	      1
+		         /
+		        2
+
+         */
+        assertEquals(1, tree.findLCA(1, 2));
+    }
+
 }
