@@ -147,4 +147,19 @@ public class LCATest {
         assertEquals(-3, tree.findLCA(-3, -3));
     }
 
+    @Test
+    public void testOneNode() {
+        LCA.BT_NoParentPtr_Solution1 tree = new LCA.BT_NoParentPtr_Solution1();
+        tree.root = new LCA.Node(1);
+
+         /*
+
+        SEARCH TREE VISUALISATION
+
+        	      1
+
+         */
+        assertEquals(1, tree.findLCA(1, 1));
+    }
+
 }
