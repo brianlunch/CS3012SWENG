@@ -177,4 +177,26 @@ public class LCATest {
     }
 
 
+    @Test
+    public void testDAG2() {
+
+        DAG dag = new DAG(10);
+        dag.addEdge(1,4);
+        dag.addEdge(2,4);
+        dag.addEdge(3,4);
+        dag.addEdge(4,5);
+        dag.addEdge(4,6);
+        dag.addEdge(4,7);
+        dag.addEdge(5,8);
+        dag.addEdge(6,8);
+        dag.addEdge(7,8);
+
+
+        assertEquals(4,dag.LCA(5,6));
+        assertEquals(4,dag.LCA(4,7));
+        assertEquals(1,dag.LCA(1,6));
+
+
+    }
+
 }
