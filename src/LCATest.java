@@ -162,4 +162,19 @@ public class LCATest {
         assertEquals(1, tree.findLCA(1, 1));
     }
 
+    @Test
+    public void testDAG() {
+        DAG dag = new DAG(10);
+        dag.addEdge(1, 2);
+        dag.addEdge(1, 3);
+        dag.addEdge(2, 4);
+        dag.addEdge(3, 5);
+        dag.addEdge(5, 6);
+
+        assertEquals(1,dag.LCA(6,4));
+        assertEquals(1,dag.LCA(3,4));
+        assertEquals(1,dag.LCA(1,6));
+    }
+
+
 }
