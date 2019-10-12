@@ -28,24 +28,12 @@ public class DAG
         }
     }
 
-    //Returns current vertex
-    public int V(){
-        return V;
-    }
-
-    //Returns current edge
-    public int E(){
-        return E;
-    }
-
     //Adds directed edge v->w
     public void addEdge(int v, int w){
         if(validateVertex(v) && validateVertex(w)) {
             adj[v].add(w);
             indegree[w]++;
             E++;
-        }else{
-            System.out.println("Edge " + v + "->" + w + " ignored due to non-existent vertex" );
         }
     }
 
