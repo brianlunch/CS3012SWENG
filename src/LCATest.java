@@ -5,6 +5,15 @@ import static org.junit.Assert.*;
 public class LCATest {
 
     @Test
+    public void testWrongValues() {
+        LCA.BT_NoParentPtr_Solution1 tree = new LCA.BT_NoParentPtr_Solution1();
+        tree.root = new LCA.Node(1);
+        tree.root.left = new LCA.Node(2);
+        tree.root.right = new LCA.Node(3);
+        assertEquals(-1, tree.findLCA(4, 5));
+    }
+
+    @Test
     public void testOne() {
         LCA.BT_NoParentPtr_Solution1 tree = new LCA.BT_NoParentPtr_Solution1();
         tree.root = new LCA.Node(1);
@@ -195,8 +204,6 @@ public class LCATest {
         assertEquals(4,dag.LCA(5,6));
         assertEquals(4,dag.LCA(4,7));
         assertEquals(1,dag.LCA(1,6));
-
-
     }
 
 }
