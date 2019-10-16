@@ -206,4 +206,16 @@ public class LCATest {
         assertEquals(1,dag.LCA(1,6));
     }
 
+
+        @Test
+        public void testLCAForEmptyDAG()
+        {
+            DAG dag = new DAG(5);
+            assertEquals( -1, dag.LCA(0, 2));
+           
+        }
+
+
+
+
 }

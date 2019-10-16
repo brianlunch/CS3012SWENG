@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0c0c8b62-c25b-40f5-a8f7-52dc2a0bca1d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS3012SWENG/LCATest.class" afterPath="$PROJECT_DIR$/out/production/CS3012SWENG/LCATest.class" />
-      <change beforePath="$PROJECT_DIR$/src/LCA.java" afterPath="$PROJECT_DIR$/src/LCA.java" />
       <change beforePath="$PROJECT_DIR$/src/LCATest.java" afterPath="$PROJECT_DIR$/src/LCATest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,8 +35,8 @@
       <file leaf-file-name="LCATest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LCATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="222">
+              <caret line="214" column="11" lean-forward="true" selection-start-line="214" selection-start-column="11" selection-end-line="214" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,10 +47,9 @@
       <file leaf-file-name="DAG.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DAG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1072">
-              <caret line="147" column="28" lean-forward="false" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="28" />
+            <state relative-caret-position="0">
+              <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#1679#1680#0" expanded="true" />
                 <element signature="e#1708#1709#0" expanded="true" />
                 <element signature="e#1745#1746#0" expanded="true" />
@@ -165,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LCATest.testWrongValues">
+  <component name="RunManager" selected="JUnit.LCATest.testLCAForEmptyDAG">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -229,6 +226,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LCATest" />
       <option name="METHOD_NAME" value="testEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LCATest.testLCAForEmptyDAG" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="CS3012SWENG" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LCATest" />
+      <option name="METHOD_NAME" value="testLCAForEmptyDAG" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -321,17 +338,19 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.LCATest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.LCATest.testEmpty" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.LCATest.testWrongValues" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LCATest.testLCAForEmptyDAG" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LCATest.testWrongValues" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LCATest.testEmpty" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LCATest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LCATest.testLCAForEmptyDAG" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LCATest.testWrongValues" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LCATest.testEmpty" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LCATest" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +367,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571416542798</updated>
-      <workItem from="1571416548401" duration="3089000" />
+      <workItem from="1571416548401" duration="3435000" />
     </task>
     <servers />
   </component>
@@ -362,12 +381,15 @@
     <history-entry file="LCATest_testEmpty - 2019.10.18 at 22h 00m 13s.xml">
       <configuration name="LCATest.testEmpty" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LCATest_testLCAForEmptyDAG - 2019.10.18 at 22h 09m 18s.xml">
+      <configuration name="LCATest.testLCAForEmptyDAG" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="LCATest_testWrongValues - 2019.10.18 at 22h 03m 28s.xml">
       <configuration name="LCATest.testWrongValues" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3089000" />
+    <option name="totallyTimeSpent" value="3435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -416,10 +438,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/DAG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1072">
-          <caret line="147" column="28" lean-forward="false" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="28" />
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1679#1680#0" expanded="true" />
             <element signature="e#1708#1709#0" expanded="true" />
             <element signature="e#1745#1746#0" expanded="true" />
@@ -441,8 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LCATest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="222">
+          <caret line="214" column="11" lean-forward="true" selection-start-line="214" selection-start-column="11" selection-end-line="214" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
