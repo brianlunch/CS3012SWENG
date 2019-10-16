@@ -212,10 +212,21 @@ public class LCATest {
         {
             DAG dag = new DAG(5);
             assertEquals( -1, dag.LCA(0, 2));
-           
+
         }
 
+    @Test
+    public void ownLCA() {
+        DAG dag = new DAG(10);
+
+        dag.addEdge(0, 1);
+        dag.addEdge(0, 2);
+        dag.addEdge(2, 3);
+
+        assertEquals("checking for lca with ancestor on same vertex", 3, dag.LCA(3, 3));
+    }
 
 
 
-}
+
+    }
