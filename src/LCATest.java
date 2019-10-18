@@ -226,7 +226,6 @@ public class LCATest {
         assertEquals("checking for lca with ancestor on same vertex", 3, dag.LCA(3, 3));
     }
 
-
-
+    
 
     }
