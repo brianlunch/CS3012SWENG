@@ -5,6 +5,15 @@ import static org.junit.Assert.*;
 public class LCATest {
 
     @Test
+    public void testWrongValues() {
+        LCA.BT_NoParentPtr_Solution1 tree = new LCA.BT_NoParentPtr_Solution1();
+        tree.root = new LCA.Node(1);
+        tree.root.left = new LCA.Node(2);
+        tree.root.right = new LCA.Node(3);
+        assertEquals(-1, tree.findLCA(4, 5));
+    }
+
+    @Test
     public void testOne() {
         LCA.BT_NoParentPtr_Solution1 tree = new LCA.BT_NoParentPtr_Solution1();
         tree.root = new LCA.Node(1);
@@ -162,4 +171,62 @@ public class LCATest {
         assertEquals(1, tree.findLCA(1, 1));
     }
 
-}
+    @Test
+    public void testDAG() {
+        DAG dag = new DAG(10);
+        dag.addEdge(1, 2);
+        dag.addEdge(1, 3);
+        dag.addEdge(2, 4);
+        dag.addEdge(3, 5);
+        dag.addEdge(5, 6);
+
+        assertEquals(1,dag.LCA(6,4));
+        assertEquals(1,dag.LCA(3,4));
+        assertEquals(1,dag.LCA(1,6));
+    }
+
+
+    @Test
+    public void testDAG2() {
+
+        DAG dag = new DAG(10);
+        dag.addEdge(1,4);
+        dag.addEdge(2,4);
+        dag.addEdge(3,4);
+        dag.addEdge(4,5);
+        dag.addEdge(4,6);
+        dag.addEdge(4,7);
+        dag.addEdge(5,8);
+        dag.addEdge(6,8);
+        dag.addEdge(7,8);
+
+
+        assertEquals(4,dag.LCA(5,6));
+        assertEquals(4,dag.LCA(4,7));
+        assertEquals(1,dag.LCA(1,6));
+    }
+
+
+        @Test
+        public void testLCAForEmptyDAG()
+        {
+            DAG dag = new DAG(5);
+            assertEquals( -1, dag.LCA(0, 2));
+
+        }
+
+    @Test
+    public void ownLCA() {
+        DAG dag = new DAG(10);
+
+        dag.addEdge(0, 1);
+        dag.addEdge(0, 2);
+        dag.addEdge(2, 3);
+
+        assertEquals("checking for lca with ancestor on same vertex", 3, dag.LCA(3, 3));
+    }
+
+
+
+
+    }

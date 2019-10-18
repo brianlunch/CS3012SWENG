@@ -31,7 +31,7 @@ public class LCA {
         private static int findLCAInternal(Node root, int n1, int n2) {
 
             if (!findPath(root, n1, path1) || !findPath(root, n2, path2)) {
-
+            return -1;
             }
 
             int i;
@@ -52,6 +52,8 @@ public class LCA {
 
             // Store this node . The node will be removed if
             // not in path from root to n.
+
+
             path.add(root.data);
 
             if (root.data == n) {

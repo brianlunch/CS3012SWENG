@@ -13,15 +13,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CS3012SWENG$LCATest.coverage" NAME="LCATest Coverage Results" MODIFIED="1571419081398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CS3012SWENG$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1571419062513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="LCA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LCA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="663">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding>
-                <element signature="e#0#2203#0" expanded="true" />
+                <element signature="e#0#2227#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -31,10 +35,25 @@
       <file leaf-file-name="LCATest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LCATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="162" column="5" lean-forward="false" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
+            <state relative-caret-position="171">
+              <caret line="225" column="77" lean-forward="false" selection-start-line="225" selection-start-column="77" selection-end-line="225" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DAG.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAG.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <folding>
+                <element signature="e#1679#1680#0" expanded="true" />
+                <element signature="e#1708#1709#0" expanded="true" />
+                <element signature="e#1745#1746#0" expanded="true" />
+                <element signature="e#1781#1782#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,8 +64,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,6 +80,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/DAG.java" />
         <option value="$PROJECT_DIR$/src/LCA.java" />
         <option value="$PROJECT_DIR$/src/LCATest.java" />
       </list>
@@ -100,6 +120,11 @@
               <item name="CS3012SWENG" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS3012SWENG" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CS3012SWENG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS3012SWENG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -137,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LCATest.ownLCA">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -172,6 +197,106 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="LCATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="CS3012SWENG" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LCATest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LCATest.ownLCA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="CS3012SWENG" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LCATest" />
+      <option name="METHOD_NAME" value="ownLCA" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LCATest.testEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="CS3012SWENG" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LCATest" />
+      <option name="METHOD_NAME" value="testEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LCATest.testLCAForEmptyDAG" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="CS3012SWENG" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LCATest" />
+      <option name="METHOD_NAME" value="testLCAForEmptyDAG" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LCATest.testWrongValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="CS3012SWENG" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LCATest" />
+      <option name="METHOD_NAME" value="testWrongValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -233,6 +358,23 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LCATest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LCATest.testEmpty" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LCATest.testWrongValues" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LCATest.testLCAForEmptyDAG" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.LCATest.ownLCA" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LCATest.ownLCA" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LCATest.testLCAForEmptyDAG" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LCATest.testWrongValues" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LCATest.testEmpty" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LCATest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -247,12 +389,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571416542798</updated>
-      <workItem from="1571416548401" duration="1375000" />
+      <workItem from="1571416548401" duration="3611000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="LCATest - 2019.10.18 at 18h 18m 03s.xml">
+      <configuration name="LCATest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LCATest_ownLCA - 2019.10.18 at 22h 12m 12s.xml">
+      <configuration name="LCATest.ownLCA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LCATest_testEmpty - 2019.10.18 at 21h 59m 08s.xml">
+      <configuration name="LCATest.testEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LCATest_testEmpty - 2019.10.18 at 22h 00m 13s.xml">
+      <configuration name="LCATest.testEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LCATest_testLCAForEmptyDAG - 2019.10.18 at 22h 09m 18s.xml">
+      <configuration name="LCATest.testLCAForEmptyDAG" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LCATest_testWrongValues - 2019.10.18 at 22h 03m 28s.xml">
+      <configuration name="LCATest.testWrongValues" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1375000" />
+    <option name="totallyTimeSpent" value="3611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -260,13 +422,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -297,12 +461,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/DAG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding>
+            <element signature="e#1679#1680#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1781#1782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LCA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="663">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
-            <element signature="e#0#2203#0" expanded="true" />
+            <element signature="e#0#2227#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -310,8 +487,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LCATest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="162" column="5" lean-forward="false" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
+        <state relative-caret-position="171">
+          <caret line="225" column="77" lean-forward="false" selection-start-line="225" selection-start-column="77" selection-end-line="225" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
